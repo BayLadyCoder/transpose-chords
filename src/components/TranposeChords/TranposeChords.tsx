@@ -17,9 +17,6 @@ export const TranposeChords = () => {
 
   return (
     <Flex w='100%' flexDirection='column' alignItems='center'>
-      <Text fontWeight='bold' fontSize='lg' align='center' marginBottom='20px'>
-        Tranpose Chords
-      </Text>
       <Flex justifyContent='center' gap='10px' marginBottom='20px'>
         <FormControl variant='floating'>
           <Select
