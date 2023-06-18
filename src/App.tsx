@@ -7,7 +7,7 @@ function App() {
   return (
     <Flex flexDirection='column' minHeight='100%'>
       <NavBar />
-      <Flex flexDirection='column' padding='10px 20px'>
+      <Flex flexDirection='column' padding='10px 20px' marginTop='20px'>
         <TranposeChords />
       </Flex>
       <Footer />
