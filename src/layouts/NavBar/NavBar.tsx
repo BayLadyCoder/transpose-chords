@@ -11,7 +11,7 @@ export const NavBar = () => {
       padding='10px 20px'
     >
       <Icon as={TbBuildingChurch} w={7} h={7} />
-      <Text fontSize='lg'>House of Worship</Text>
+      <Text fontSize='lg'>Transpose Chords Tool</Text>
       <Icon as={HiMenu} w={7} h={7} />
     </Flex>
   );
