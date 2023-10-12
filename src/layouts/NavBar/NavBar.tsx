@@ -1,18 +1,16 @@
 import { Flex, Text, Icon } from '@chakra-ui/react';
-import { TbBuildingChurch } from 'react-icons/tb';
-import { HiMenu } from 'react-icons/hi';
+import { GiMusicalNotes } from 'react-icons/gi';
 
 export const NavBar = () => {
   return (
     <Flex
       alignItems='center'
-      justifyContent='space-between'
+      justifyContent='center'
       bg='blue.100'
       padding='10px 20px'
     >
-      <Icon as={TbBuildingChurch} w={7} h={7} />
+      <Icon as={GiMusicalNotes} w={7} h={7} marginRight={2} />
       <Text fontSize='lg'>Transpose Chords Tool</Text>
-      <Icon as={HiMenu} w={7} h={7} />
     </Flex>
   );
 };
